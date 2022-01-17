@@ -1,0 +1,311 @@
+<!doctype html>
+
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Patriotic Socialisms</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+
+        body {
+            background: darkred;
+            margin: 24px;
+        }
+
+        body>h2 {
+            color: gold;
+        }
+
+        h1 {
+            color: gold;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        h3 {
+            margin-bottom: 8px;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        ul {
+            margin: 0;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul ul {
+            padding-left: 16px;
+            padding-top: 4px;
+        }
+
+        .ideologies,
+        .terms {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .ideology,
+        .term {
+            background: white;
+            border-radius: 16px;
+            flex: none;
+            padding: 24px;
+            width: 296px;
+        }
+
+        .ideology h2,
+        .term h3 {
+            margin-top: 0;
+            text-align: center;
+            ;
+        }
+
+        .ideology h3 {
+            display: none;
+        }
+
+        .pro {
+            color: green;
+        }
+
+        .pro li::before {
+            content: '✅ ';
+        }
+
+        .anti {
+            color: red;
+        }
+
+        .anti li::before {
+            content: '🚫 ';
+        }
+
+        .term {
+            padding: 16px;
+        }
+
+        .term li {
+            text-transform: none;
+        }
+
+        .term li::before {
+            content: '• '
+        }
+
+        .source {
+            color: gold;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Patriotic Socialisms</h1>
+
+    <div class='ideologies'>
+        <div class='ideology'>
+            <h2>National<br>Bolshevism</h2>
+            <div class='pro'>
+                <h3>Pro</h3>
+                <ul>
+                    <li>communism</li>
+                    <li>ultranationalism</li>
+                </ul>
+            </div>
+            <div class='examples'>
+                <h3>Example</h3>
+                <ul>
+                    <li>🇷🇺 NBP</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class='ideology'>
+            <h2>National<br>communism</h2>
+            <div class='pro'>
+                <h3>Pro</h3>
+                <ul>
+                    <li>Marxism&ndash;Leninism</li>
+                    <li>nationalism</li>
+                </ul>
+            </div>
+            <div class='anti'>
+                <h3>Anti</h3>
+                <ul>
+                    <li>internationalism</li>
+                    <li>Soviet model</li>
+                </ul>
+            </div>
+            <div class='examples'>
+                <h3>Examples</h3>
+                <ul>
+                    <li>🇰🇵 North Korea</li>
+                    <li>🇰🇭 Pol Pot</li>
+                    <li>🇭🇷 Tito</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class='ideology'>
+            <h2>National<br>Socialism</h2>
+            <div class='pro'>
+                <h3>Pro</h3>
+                <ul>
+                    <li>fascism</li>
+                    <li>imperialism</li>
+                    <li>ultranationalism</li>
+                </ul>
+            </div>
+            <div class='anti'>
+                <h3>Anti</h3>
+                <ul>
+                    <li>communism</li>
+                    <li>internationalism</li>
+                </ul>
+            </div>
+            <div class='examples'>
+                <h3>Example</h3>
+                <ul>
+                    <li>🇩🇪 Nazi Germany</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class='ideology'>
+            <h2>Socialist<br>patriotism</h2>
+            <div class='pro'>
+                <h3>Pro</h3>
+                <ul>
+                    <li>internationalism</li>
+                    <li>Marxism&ndash;Leninism</li>
+                    <li>national sovereignty</li>
+                    <li>patriotism</li>
+                </ul>
+            </div>
+            <div class='anti'>
+                <h3>Anti</h3>
+                <ul>
+                    <li>chauvinism</li>
+                    <li>imperialism</li>
+                    <li>nationalism</li>
+                </ul>
+            </div>
+            <div class='examples'>
+                <h3>Examples</h3>
+                <ul>
+                    <li>🇨🇳 China</li>
+                    <li>🇰🇵 North Korea</li>
+                    <li>🇻🇳 Vietnam</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class='ideology'>
+            <h2>Social<br>nationalism</h2>
+            <div class='pro'>
+                <h3>Pro</h3>
+                <ul>
+                    <li>leftism</li>
+                    <li>national sovereignty</li>
+                    <li>nationalism</li>
+                </ul>
+            </div>
+            <div class='anti'>
+                <h3>Anti</h3>
+                <ul>
+                    <li>imperialism</li>
+                    <li>rightism</li>
+                </ul>
+            </div>
+            <div class='examples'>
+                <h3>Examples</h3>
+                <ul>
+                    <li>🇨🇦 Bloc Québécois</li>
+                    <li>🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scottish National Party</li>
+                    <li>🇿🇦 South Africa</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class='ideology'>
+            <h2>Social<br>patriotism</h2>
+            <div class='pro'>
+                <h3>Pro</h3>
+                <ul>
+                    <li>patriotism</li>
+                    <li>socialism</li>
+                    <li>war</li>
+                </ul>
+            </div>
+            <div class='anti'>
+                <h3>Anti</h3>
+                <ul>
+                    <li>internationalism</li>
+                    <li>worker solidarity</li>
+                </ul>
+            </div>
+            <div class='examples'>
+                <h3>Examples in WWI</h3>
+                <ul>
+                    <li>🇫🇷 Socialist Party in WWI</li>
+                    <li>🇩🇪 SPD in WWI</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <h2>Other terms</h2>
+
+    <div class='terms'>
+        <div class='term'>
+            <h3>Red fascism</h3>
+            <ul>
+                <li>equates Stalinism, Maoism, and other kinds of Marxism&ndash;Leninism with fascism</li>
+                <li>Soviet leaders accused by anarchists, left communists, democratic socialists, liberals,
+                    right-wingers
+                </li>
+            </ul>
+        </div>
+
+        <div class='term'>
+            <h3>Social fascism</h3>
+            <ul>
+                <li>theory supported by Comintern & affiliates in early 1930s</li>
+                <li>said social democracy was fascism, because it prevented dictatorship of proletariat</li>
+            </ul>
+        </div>
+
+        <div class='term'>
+            <h3>Socialism in one country</h3>
+            <ul>
+                <li>1924 theory by Stalin & Bukharin</li>
+                <li>adopted by Soviet Union</li>
+                <li>advocated turning<ul>
+                        <li>toward national communism</li>
+                        <li>away from global communism</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <p class='source'>Source: Wikipedia</p>
+</body>
+
+</html>
